@@ -58,6 +58,8 @@ public class BankTokenSystem extends JFrame {
                 e -> callNextCustomer());
     }
 
+    // method to generate token
+
     private void generateToken() {
         Customer customer=new Customer(nextToken);
         queue.enqueue(customer);
